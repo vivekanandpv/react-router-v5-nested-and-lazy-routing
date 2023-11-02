@@ -38,6 +38,11 @@ const Navbar = (props) => {
                 </NavLink>
               </li>
               <li className='nav-item'>
+                <NavLink to='/playground' exact className='nav-link'>
+                  Playground
+                </NavLink>
+              </li>
+              <li className='nav-item'>
                 <NavLink to='/news/latest' exact className='nav-link'>
                   Latest News
                 </NavLink>
