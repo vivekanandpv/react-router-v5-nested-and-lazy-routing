@@ -15,7 +15,7 @@ const Playground = (props) => {
   });
 
   if (isLoading) {
-    return <p>We are fetching data from you!</p>;
+    return <p>We are fetching data for you!</p>;
   }
 
   if (isError) {

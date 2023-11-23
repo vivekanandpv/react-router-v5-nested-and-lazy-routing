@@ -43,6 +43,11 @@ const Navbar = (props) => {
                 </NavLink>
               </li>
               <li className='nav-item'>
+                <NavLink to='/shadow-playground' exact className='nav-link'>
+                  Shadow Playground
+                </NavLink>
+              </li>
+              <li className='nav-item'>
                 <NavLink to='/news/latest' exact className='nav-link'>
                   Latest News
                 </NavLink>

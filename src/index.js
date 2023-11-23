@@ -11,7 +11,7 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 const client = new QueryClient({
   defaultOptions: {
     queries: {
-      refetchOnWindowFocus: true, // true by default
+      refetchOnWindowFocus: false, // true by default
     },
   },
 });

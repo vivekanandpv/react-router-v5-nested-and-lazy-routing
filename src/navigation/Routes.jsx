@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
+import ShadowPlayground from "./ShadowPlayground";
 
 const Home = React.lazy(() => import('./Home'));
 const About = React.lazy(() => import('./About'));
@@ -18,6 +19,7 @@ const Routes = (props) => {
           <Route exact path='/about/:id' component={About} />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/playground' component={Playground} />
+          <Route exact path='/shadow-playground' component={ShadowPlayground} />
           <Route path='/news' component={News} />
           <Route component={NotFound} />
         </Switch>
